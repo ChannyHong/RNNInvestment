@@ -4,27 +4,27 @@ This project aims to create a model with Recurrent Neural Network using Long Sho
 and make predictions of price movement.
 
 
-simulation.py (best run with Python3, Tensorflow activated)
+'simulation.py' (best run with Python3, Tensorflow activated)
 - runs the simulation of with simple buy-all/sell-all scheme after making up/down predictions of the stock value
 
-dataCoordinator.py (best run with Python2)
+'dataCoordinator.py' (best run with Python2)
 - coordinates several different financial data files into single one csv file for simulation.py
 
-dataModifier.py (best run with Python2)
+'dataModifier.py' (best run with Python2)
 - preprocesses the data by filling in data as specified as needed
 
-dateTool.py (best run with Python2)
+'dateTool.py' (best run with Python2)
 - houses date calculating functions used by dataModifier.py and dataCoordinator.py
 
 
 
-coordinatedData folder
+'coordinatedData' folder
 - houses the coordinated data files created by dataCoordinator.py
 
-indicators folder
+'indicators' folder
 - houses the raw (straight from Yahoo Finance) financial data csv files or modified versions made by dataModifier.py
 
-simulationResults folder
+'simulationResults' folder
 - houses the simulation result csv files made by simulation.py
 
 
